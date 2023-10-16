@@ -77,11 +77,11 @@ code {
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #4275fa;
+  background: #57457b;
   border-radius: 2px;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: #4275fa;
+  background: #57457b;
 }

@@ -15,7 +15,7 @@ export const AboutSection: FC = () => {
   return (
     <StyledAboutSection id="about">
       <StyledImageContainer>
-        <img className={`w-80`} ref={gifRef} />
+        <img className={`w-80`} ref={gifRef} alt="imagen sección acerca" />
       </StyledImageContainer>
       <StyledTitle>Fiesta de Quince </StyledTitle>
       <StyledSubtitle>Celebremos juntos la vida</StyledSubtitle>

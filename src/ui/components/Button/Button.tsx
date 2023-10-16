@@ -4,6 +4,7 @@ import { Button as ButtonMUI, ButtonProps } from "@mui/material";
 
 interface ButtonCustomProps extends ButtonProps {
   color?: "primary" | "secondary";
+  target?: string;
 }
 
 export const Button = styledMUI(ButtonMUI)<ButtonCustomProps>(({ color }) => {
@@ -14,8 +15,8 @@ export const Button = styledMUI(ButtonMUI)<ButtonCustomProps>(({ color }) => {
 
   switch (color) {
     case "primary":
-      colorButton = "#FFFFFF";
-      colorFont = "#4175FA";
+      colorButton = "#57457B";
+      colorFont = "#FFFFFF";
       shadow = "0px 4px 18px rgba(0, 0, 0, 0.25)";
       break;
     case "secondary":
@@ -40,7 +41,7 @@ export const Button = styledMUI(ButtonMUI)<ButtonCustomProps>(({ color }) => {
     borderRadius: "50px",
     textTransform: "none",
     boxShadow: shadow,
-    fontFamily: "Poppins-Regular",
+    fontFamily: "OpenSans-Regular",
     color: colorFont,
     fontWeight: "600",
     fontSize: "18px",

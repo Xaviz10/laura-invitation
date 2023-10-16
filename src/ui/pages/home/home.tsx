@@ -1,7 +1,12 @@
 import { FC } from "react";
 import { DefaultLayout } from "../../layouts";
 
-import { AboutSection, WelcomeSection } from "./components";
+import {
+  AboutSection,
+  SaveTheDateSection,
+  TimeLineSection,
+  WelcomeSection,
+} from "./components";
 import { useHomeViewModel } from "../../viewModels";
 
 export const Home: FC = () => {
@@ -9,6 +14,8 @@ export const Home: FC = () => {
     <DefaultLayout>
       <WelcomeSection />
       <AboutSection />
+      <SaveTheDateSection />
+      <TimeLineSection />
     </DefaultLayout>
   );
 };

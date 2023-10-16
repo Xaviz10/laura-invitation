@@ -1,4 +1,4 @@
-import { useEffect, useRef } from "react";
+import { useEffect, useRef, useState } from "react";
 
 export function useGifReload(gifSrc: string) {
   const gifRef = useRef<HTMLImageElement | null>(null);
@@ -7,7 +7,7 @@ export function useGifReload(gifSrc: string) {
     const options: IntersectionObserverInit = {
       root: null,
       rootMargin: "0px",
-      threshold: 0.8, // Adjust this value as needed
+      threshold: 0, // Adjust this value as needed
     };
 
     const observer = new IntersectionObserver(([entry]) => {

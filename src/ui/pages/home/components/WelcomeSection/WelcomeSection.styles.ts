@@ -5,7 +5,16 @@ import crownFlower from "../../../../assets/images/crownFlower.png";
 export const StyledWelcomeSection = styled.section.attrs({
   className: "StyledWelcomeSection",
 })`
-  ${tw`h-screen max-h-full bg-no-repeat bg-cover bg-center grid place-content-center`}
+  ${tw`relative h-screen max-h-full bg-no-repeat bg-cover bg-center grid place-content-center`}
+  background-attachment: fixed;
+`;
+
+export const StyledFilter = styled.div.attrs({
+  className: "StyledFilter",
+})`
+  ${tw`absolute h-screen max-h-full w-screen`}
+  background-color: rgb(30, 29, 45);
+  opacity: 0.4;
   background-attachment: fixed;
 `;
 
