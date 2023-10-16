@@ -1,0 +1,46 @@
+{
+  "header": {
+    "about": "Sobre mí",
+    "whatIDo": "Habilidades",
+    "work": "Trabajo",
+    "contact": "Contáctame"
+  },
+  "welcomeSection": {
+    "title": "HOLA, SOY JAVIER GAMBOA",
+    "subtitle": "DESARROLLADOR FRONTEND",
+    "buttonHireMe": "Contratar",
+    "buttonCV": "Ver HV"
+  },
+  "aboutMeSection": {
+    "title": "SOBRE MÍ",
+    "subtitle": "Desarrollador Frontend",
+    "description": "Soy un Desarrollador Frontend proactivo con experiencia en Ingeniería Mecatrónica y una maestría en Ingeniería de Automatización Industrial. En los últimos 3 años, he adquirido habilidades en el desarrollo web, con un fuerte enfoque en React. Me apasiona crear interfaces de usuario eficientes e intuitivas y buscar constantemente nuevos desafíos para crecer tanto profesional como personalmente.",
+    "myHobbies": "Mis hobbies",
+    "travel": "Viajar",
+    "workout": "Ejercitarme",
+    "coffee": "Café"
+  },
+  "specializationSection": {
+    "title": "QUE HAGO",
+    "subtitle": "Me Especializo En",
+    "javascript": "Fuertes habilidades de JavaScript con conocimiento profundo del bucle de eventos, permitiendo una programación asíncrona eficiente y un rendimiento optimizado.",
+    "typescript": "Fuertes habilidades con TypeScript, aprovechando la tipificación estática para mejorar el desarrollo de frontend mejorando la calidad de código, mantenibilidad y detección de errores tempranos.",
+    "react": "Fuerte conocimiento en React para construir aplicaciones web SPA, crear componentes reutilizables y traducir diseños en código de calidad.",
+    "tailwind": "Competente en Tailwind, utilizando su enfoque de clases predefinidas para diseñar aplicaciones web receptivas y eficientemente",
+    "mui": "Fuerte experiencia con Material UI, experto en personalizar sus componentes, implementando las mejores prácticas, para obtener interfaces de usuario pulidas y receptivas.",
+    "reactNative": "Experiencia en React Native, aprendiendo activamente, aplicando y expandiendo mis habilidades de desarrollo de aplicaciones móviles."
+  },
+  "contactSection": {
+    "title": "CONTÁCTAME",
+    "subtitle": "Ponte en contacto",
+    "contactInformation": "Información del contacto",
+    "contactDetails": "¿Tienes algún proyecto? ¿O tal vez solo quieres saludar? Me encantaría saber de ti.",
+    "nameLabel": "Nombre",
+    "namePlaceholder": "Tu nombre",
+    "emailLabel": "Email",
+    "emailPlaceholder": "Tu email",
+    "messageLabel": "Mensaje",
+    "messagePlaceholder": "Tu mensaje",
+    "buttonSend": "Enviar mensaje"
+  }
+}

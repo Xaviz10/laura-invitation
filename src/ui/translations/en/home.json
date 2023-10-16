@@ -1,0 +1,47 @@
+{
+  "header": {
+    "about": "About",
+    "whatIDo": "What I Do",
+    "work": "Work",
+    "contact": "Contact"
+  },
+
+  "welcomeSection": {
+    "title": "HELLO, I'M JAVIER GAMBOA",
+    "subtitle": "FRONTEND DEVELOPER",
+    "buttonHireMe": "Hire me",
+    "buttonCV": "Get CV"
+  },
+  "aboutMeSection": {
+    "title": "ABOUT ME",
+    "subtitle": "Frontend Developer",
+    "description": "I am a proactive Frontend Developer with a background in Mechatronics Engineering and a Master's degree in Industrial Automation Engineering. Over the past 3 years, I have acquired skills in web development, with a strong focus on React. I am passionate about creating efficient and intuitive user interfaces and constantly seeking new challenges to grow both professionally and personally.",
+    "myHobbies": "My Hobbies",
+    "travel": "Travel",
+    "workout": "Workout",
+    "coffee": "Coffee"
+  },
+  "specializationSection": {
+    "title": "WHAT I DO",
+    "subtitle": "Specializing In",
+    "javascript": "Strong JavaScript skills with in-depth knowledge of the event loop, enabling efficient asynchronous programming and optimized performance.",
+    "typescript": "Strong TypeScript skills, leveraging static typing to enhance frontend development with improved code quality, maintainability, and early error detection.",
+    "react": "Skilled in React, building single-page web apps, creating reusable components, and translating designs into quality code",
+    "tailwind": "Proficient in Tailwind, utilizing its utility-first approach to efficiently design and style responsive web applications.",
+    "mui": "Strong expertise in Material UI, adept at customizing components and implementing best practices for polished and responsive user interfaces.",
+    "reactNative": "Experience in React Native, actively learning, applying and expanding my mobile app development skills."
+  },
+  "contactSection": {
+    "title": "CONTACT ME",
+    "subtitle": "Get In Touch",
+    "contactInformation": "Contact Information",
+    "contactDetails": "Have some project? or maybe just want to say hello? I'd love to hear from you.",
+    "nameLabel": "Name",
+    "namePlaceholder": "Your name",
+    "emailLabel": "Email",
+    "emailPlaceholder": "Your email",
+    "messageLabel": "Message",
+    "messagePlaceholder": "Your message",
+    "buttonSend": "Send Message"
+  }
+}

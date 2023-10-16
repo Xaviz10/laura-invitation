@@ -1,0 +1,7 @@
+export enum ActionsTypes {
+  EXAMPLE = "EXAMPLE",
+  // session Types
+  CHANGE_LANGUAGE = "CHANGE_LANGUAGE",
+  SAVE_PROFILE = "SAVE_PROFILE",
+  LOGOUT_SESSION = "LOGOUT_SESSION",
+}
