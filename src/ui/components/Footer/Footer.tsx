@@ -1,4 +1,3 @@
-import { JGamboaLogo } from "../../assets/Svg";
 import { StyledFooter } from "./Footer.styles";
 
 export const Footer = () => {
