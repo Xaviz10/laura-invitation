@@ -1,15 +1,15 @@
 {
-  "name": "jgamboa-website",
+  "name": "laura-invitation",
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://xaviz10.github.io/jgamboa-website/",
+  "homepage": "https://xaviz10.github.io/laura-invitation/",
   "scripts": {
     "dev": "vite --host",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
-    "build": "tsc && vite build --base=/jgamboa-website",
-    "build-prod": "tsc && env-cmd -f .env.prod vite build --base=/jgamboa-website",
+    "build": "tsc && vite build --base=/laura-invitation",
+    "build-prod": "tsc && env-cmd -f .env.prod vite build --base=/laura-invitation",
     "preview": "vite preview"
   },
   "dependencies": {
