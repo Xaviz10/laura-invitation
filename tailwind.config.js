@@ -8,6 +8,7 @@ module.exports = {
       primaryRegular: ["OpenSans-Regular", "sans-serif"],
       primaryItalic: ["Marsha-Regular", "sans-serif"],
       secondaryItalic: ["PlayfairDisplay-Italic", "sans-serif"],
+      thirdItalic: ["LearningCurve", "sans-serif"],
     },
     extend: {
       colors: {

@@ -1,7 +1,7 @@
 import { ContactFormEntity } from "../entities";
 import { handleResponse } from "../shared";
 export interface contactFormInput extends handleResponse {
-  contactFormData: ContactFormEntity;
+  contactFormData: { name: string; message: string };
 }
 
 export interface ContactFormRepository {

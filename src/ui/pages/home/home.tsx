@@ -3,6 +3,8 @@ import { DefaultLayout } from "../../layouts";
 
 import {
   AboutSection,
+  ConfirmationSection,
+  CoupleSection,
   SaveTheDateSection,
   TimeLineSection,
   WelcomeSection,
@@ -10,12 +12,15 @@ import {
 import { useHomeViewModel } from "../../viewModels";
 
 export const Home: FC = () => {
+  const { handleContactForm } = useHomeViewModel();
   return (
     <DefaultLayout>
       <WelcomeSection />
       <AboutSection />
       <SaveTheDateSection />
       <TimeLineSection />
+      <ConfirmationSection handleContactForm={handleContactForm} />
+      <CoupleSection />
     </DefaultLayout>
   );
 };

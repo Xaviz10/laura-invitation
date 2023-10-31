@@ -1,5 +1,6 @@
 export interface ContactFormEntity {
   name: string;
-  email: string;
+  confirmed: boolean;
+  declined: boolean;
   message: string;
 }

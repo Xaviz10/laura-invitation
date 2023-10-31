@@ -5,7 +5,7 @@ import crownFlower from "../../../../assets/images/crownFlower.png";
 export const StyledSaveTheDateSection = styled.section.attrs({
   className: "StyledSaveTheDateSection",
 })`
-  ${tw`relative  lg:(py-36) bg-no-repeat bg-cover bg-center flex flex-col gap-8 text-center  items-center justify-center`}
+  ${tw`relative  lg:(py-36) pb-24 bg-no-repeat bg-cover bg-center flex flex-col gap-8 text-center  items-center justify-center`}
   background-attachment: fixed;
 `;
 export const StyledFilter = styled.div.attrs({
@@ -38,7 +38,7 @@ export const StyledSubtitle = styled.h2.attrs({
 export const StyledCountdownContainer = styled.div.attrs({
   className: "StyledCountdownContainer",
 })`
-  ${tw`relative flex gap-8 pb-20`}
+  ${tw`relative flex gap-8 pb-14`}
 `;
 
 export const StyledCountdownDigit = styled.div.attrs({
@@ -57,4 +57,15 @@ export const StyledDigitLabel = styled.p.attrs({
   className: "StyledDigitLabel",
 })`
   ${tw`relative text-sm font-secondaryItalic text-white`}
+`;
+
+export const StyledTipsContainer = styled.div.attrs({
+  className: "StyledTipsContainer",
+})`
+  ${tw`relative mx-auto flex flex-wrap gap-8 items-center justify-center`}
+`;
+export const StyledTipsTitle = styled.h3.attrs({
+  className: "StyledTipsTitle",
+})`
+  ${tw`relative flex flex-col text-6xl font-bold font-thirdItalic text-white`}
 `;

@@ -9,11 +9,15 @@ import {
   StyledDigit,
   StyledDigitLabel,
   StyledFilter,
+  StyledTipsContainer,
+  StyledTipsTitle,
 } from "./SaveTheDateSection.styles";
 import haciendaClosest from "../../../../assets/images/haciendaClosest.jpeg";
 import saveTheDate from "../../../../assets/images/saveTheDate.gif";
 import { useGifReload } from "../../../../hooks";
 import { useTimer } from "react-timer-hook";
+import { TipCard } from "../../../../components";
+import { DressIcon, EnvelopeIcon } from "../../../../assets/Svg";
 
 export const SaveTheDateSection: FC = ({}) => {
   const { gifRef } = useGifReload(saveTheDate);
@@ -54,6 +58,11 @@ export const SaveTheDateSection: FC = ({}) => {
           <StyledDigitLabel>Minutos</StyledDigitLabel>
         </StyledCountdownDigit>
       </StyledCountdownContainer>
+      <StyledTipsTitle>Recuerda</StyledTipsTitle>
+      <StyledTipsContainer>
+        <TipCard Icon={DressIcon} text={"Vestido azul reservado"} />
+        <TipCard Icon={EnvelopeIcon} text={"Lluvia de sobres"} />
+      </StyledTipsContainer>
     </StyledSaveTheDateSection>
   );
 };

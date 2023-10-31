@@ -10,36 +10,31 @@ import { useTranslation } from "react-i18next";
 export function useHomeViewModel() {
   const { sendEmail } = useCaseContactForm(contactFormDataService());
 
-  function handleDownloadCV() {
-    var elementDownloadLogs = document.createElement("a");
-    elementDownloadLogs.href = cv;
-    elementDownloadLogs.download = "CV.pdf";
-    elementDownloadLogs.click();
-    document.body.removeChild(elementDownloadLogs);
-  }
-
   function handleContactForm() {
     const {
       handleSubmit,
       control,
+      watch,
+      setValue,
       formState: { errors },
       reset,
     } = useForm({ mode: "onChange", resolver: yupResolver(contactFormSchema) });
-
+    console.log({ errors });
     function handleOnSuccessSubmit() {
-      toast.success("Email sent successfully! :)");
+      toast.success("Se envió tu mensaje! Gracias:)");
       reset();
     }
 
     function handleOnErrorSubmit() {
-      toast.error("Error sending email, try again later");
+      toast.error("Error al enviar respuesta");
     }
 
     function onSubmit(data: FieldValues) {
       const dataToSend = {
         name: data.name as string,
-        email: data.email as string,
-        message: data.message as string,
+        message: `Confirma su asistencia: ${
+          data.confirmed ? "Sí" : "No"
+        }. Mensaje: '${data.message}'`,
       };
       sendEmail({
         contactFormData: dataToSend,
@@ -52,8 +47,10 @@ export function useHomeViewModel() {
       handleSubmit,
       control,
       errors,
+      watch,
+      setValue,
     };
   }
 
-  return { handleDownloadCV, handleContactForm };
+  return { handleContactForm };
 }

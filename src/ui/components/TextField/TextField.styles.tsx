@@ -15,15 +15,15 @@ export const StyledInput = styled.input.attrs({
       flex-row
       items-start
       justify-center
-      py-3
       px-2
       border-b-2
       border-gray-300
       outline-none
-
-
-      text-lg
-      text-black
+      bg-transparent
+      font-primaryRegular
+      text-base
+      text-white
+      font-black
       placeholder-gray-500
       
       disabled:(bg-gray-400 border-gray-400 text-gray-600 placeholder-gray-600)
@@ -36,7 +36,7 @@ export const StyledInput = styled.input.attrs({
 export const StyledLabel = styled.label.attrs({
   className: "StyledLabel",
 })`
-  ${tw`text-2xl font-medium `}
+  ${tw`text-2xl font-black text-white font-secondaryItalic`}
 `;
 
 export const StyledHelperText = styled.p.attrs({
@@ -44,7 +44,7 @@ export const StyledHelperText = styled.p.attrs({
 })`
   ${tw`
     text-base
-    text-red-600
+    text-red-200
     `}
   word-break: break-word;
 `;
