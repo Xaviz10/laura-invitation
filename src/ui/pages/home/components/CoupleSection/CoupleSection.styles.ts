@@ -33,7 +33,7 @@ export const StyledSubtitle = styled.h2.attrs({
 export const StyledParagraph = styled.p.attrs({
   className: "StyledParagraph",
 })`
-  ${tw`text-sm max-w-2xl`}
+  ${tw`text-lg max-w-2xl`}
   color: #333;
 `;
 
@@ -52,7 +52,7 @@ export const StyledImageWhereContainer = styled.div.attrs({
 export const StyledImage = styled.img.attrs({
   className: "StyledImage",
 })`
-  ${tw`w-48 h-48 lg:(w-[250px] h-[250px]) object-cover`}
+  ${tw`w-56 h-56 lg:(w-[320px] h-[320px]) object-cover`}
   border-radius: 50%;
 `;
 

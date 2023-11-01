@@ -31,7 +31,7 @@ export const CoupleSection: FC = () => {
         refleja la fortaleza del amor y la unión que han construido a lo largo
         de los años. Nos sentimos afortunados de celebrar tanto los quince años
         de vida de Laura, como este cuarto de siglo de amor y compañía en un día
-        lleno de alegría y gratitud."
+        lleno de alegría y gratitud.
         {/* Finalmente,
         continuaremos de fiesta, celebrando y creando memorias imborrables. */}
       </StyledParagraph>
@@ -39,8 +39,8 @@ export const CoupleSection: FC = () => {
         <StyledImageWhereContainer>
           <StyledImage src={coupleSecondary} alt="imagen Eucaristía" />
           <StyledDetailsContainer>
-            <StyledSubtitle>Jorge & Mati</StyledSubtitle>
-            <StyledParagraph>25 años de casados</StyledParagraph>
+            <StyledSubtitle>Jorge & Matilde</StyledSubtitle>
+            <StyledParagraph>Bodas de Plata</StyledParagraph>
           </StyledDetailsContainer>
         </StyledImageWhereContainer>
       </StyledWhereContainer>

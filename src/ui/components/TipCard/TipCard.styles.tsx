@@ -28,5 +28,5 @@ export const StyledCard = styled.article.attrs({
 export const StyledText = styled.p.attrs({
   className: "StyledText",
 })`
-  ${tw`text-white font-bold`}
+  ${tw`text-white font-bold font-primaryRegular`}
 `;
