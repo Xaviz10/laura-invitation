@@ -13,13 +13,13 @@ export const StyledAboutSection = styled.section.attrs({
 export const StyledImageContainer = styled.div.attrs({
   className: "StyledImageContainer",
 })`
-  ${tw`w-80 h-24`}
+  ${tw`w-80 h-24 `}
 `;
 
 export const StyledTitle = styled.h1.attrs({
   className: "StyledTitle",
 })`
-  ${tw`text-6xl lg:text-7xl font-primaryItalic`}
+  ${tw` pt-16 text-6xl lg:text-7xl font-primaryItalic`}
   color: #333;
 `;
 

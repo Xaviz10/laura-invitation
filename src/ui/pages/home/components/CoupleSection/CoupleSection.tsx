@@ -10,7 +10,7 @@ import {
   StyledTitle,
   StyledWhereContainer,
 } from "./CoupleSection.styles";
-import thirdSectionFlower from "../../../../assets/images/thirdSectionFlower.gif";
+import thirdSectionFlower from "../../../../assets/images/thirdSectionPinkFlower.gif";
 import { useGifReload } from "../../../../hooks";
 import couple from "../../../../assets/images/couple.jpeg";
 import coupleSecondary from "../../../../assets/images/coupleSecondary.jpeg";
@@ -26,13 +26,12 @@ export const CoupleSection: FC = () => {
       <StyledTitle>Adicionalmente</StyledTitle>
       <StyledSubtitle>Celebraremos</StyledSubtitle>
       <StyledParagraph>
-        Además, en esta fecha especial, también conmemoraremos los 25
-        maravillosos años de matrimonio de Jorge y Matilde. Este hito en su vida
-        es de gran importancia para todos nosotros como familia, ya que refleja
-        la fortaleza del amor y la unión que han construido a lo largo de los
-        años. Nos sentimos afortunados de celebrar tanto los quince años de vida
-        de Laura, como este cuarto de siglo de amor y compañía en un día lleno
-        de alegría y gratitud."
+        Los 25 maravillosos años de matrimonio de Jorge y Matilde. Este hito en
+        su vida es de gran importancia para todos nosotros como familia, ya que
+        refleja la fortaleza del amor y la unión que han construido a lo largo
+        de los años. Nos sentimos afortunados de celebrar tanto los quince años
+        de vida de Laura, como este cuarto de siglo de amor y compañía en un día
+        lleno de alegría y gratitud."
         {/* Finalmente,
         continuaremos de fiesta, celebrando y creando memorias imborrables. */}
       </StyledParagraph>
