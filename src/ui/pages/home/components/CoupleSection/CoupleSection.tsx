@@ -13,7 +13,7 @@ import {
 import thirdSectionFlower from "../../../../assets/images/thirdSectionPinkFlower.gif";
 import { useGifReload } from "../../../../hooks";
 import couple from "../../../../assets/images/couple.jpeg";
-import coupleSecondary from "../../../../assets/images/coupleSecondary.jpeg";
+import coupleSecondary from "../../../../assets/images/coupleThird.jpeg";
 
 export const CoupleSection: FC = () => {
   const { gifRef } = useGifReload(thirdSectionFlower);
